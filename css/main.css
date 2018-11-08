@@ -1,7 +1,8 @@
 html {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   box-sizing: border-box;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 *, *::before, *::after {
@@ -12,12 +13,13 @@ body {
   margin: 0;
 }
 
-section {
+ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #d05c2e;
   margin: 0;
+  list-style: none;
 }
 
 h1 {
@@ -29,7 +31,7 @@ img {
   width: 40px;
 }
 
-.linkssection div {
+ul .linkssection {
   border: 1px solid #a63f38;
   margin: 0;
   width: 33.3333%;
@@ -40,7 +42,6 @@ a {
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
-  font-style: bold;
   padding: .4rem 0;
   text-align: center;
 }
