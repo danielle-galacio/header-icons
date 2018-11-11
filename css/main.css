@@ -25,6 +25,7 @@ ul {
 h1 {
   color: #fff;
   font-size: 2rem;
+  margin: 0;
 }
 
 img {
@@ -38,7 +39,7 @@ ul .linkssection {
 }
 
 a {
-  display: block;
+  display: inline-block;
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
